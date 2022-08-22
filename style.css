@@ -15,17 +15,17 @@ body{
     background-size: cover;
 }
 
-.contant{
+.content{
     text-align: center;
 }
-.contant h1{
+.content h1{
     color: azure;
     font-size: 50px;
     font-weight: 600;
     padding-top: 10%;
     letter-spacing: 0.5px;
 }
-.contant p{
+.content p{
     color: azure;
     letter-spacing: 0.7px;
     line-height: 26px;
