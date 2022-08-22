@@ -1,3 +1,4 @@
+// Button Disabler and append child
 function setPlayerName(players, button, playersField){
     const setPlayersField = document.getElementById(players)
     const setPlayersNameField = setPlayersField.innerText;
@@ -9,6 +10,7 @@ function setPlayerName(players, button, playersField){
     playersField.appendChild(li);
 }
 
+// Function For Converting Value
 document.getElementById('p1-btn').addEventListener('click', function(){
     const playersField = document.getElementById('player-list')
     const totalPlayer = playersField.getElementsByTagName('li').length;
@@ -28,7 +30,7 @@ document.getElementById('p2-btn').addEventListener('click', function(){
         setPlayerName('neymar', 'p2-btn', playersField)
     }
         else{
-        alert('You Have Permission to Add Maximum 5 Player');
+        alert('You can not select more than 5 players');
     }
 })
 document.getElementById('p3-btn').addEventListener('click', function(){

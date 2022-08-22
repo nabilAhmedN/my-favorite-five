@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -27,6 +31,7 @@ body{
 }
 .content p{
     color: azure;
+    font-weight: 600;
     letter-spacing: 0.7px;
     line-height: 26px;
     font-size: 17px;
