@@ -19,7 +19,7 @@ document.getElementById('p1-btn').addEventListener('click', function(){
         setPlayerName('messi', 'p1-btn', playersField)
     }
         else{
-        alert('You Have Permission to Add Maximum 5 Player');
+        alert('You can not select more than 5 players');
     }
 })
 document.getElementById('p2-btn').addEventListener('click', function(){
@@ -41,7 +41,7 @@ document.getElementById('p3-btn').addEventListener('click', function(){
         setPlayerName('mbappé', 'p3-btn', playersField)
     }
         else{
-        alert('You Have Permission to Add Maximum 5 Player');
+        alert('You can not select more than 5 players');
     }
 })
 document.getElementById('p4-btn').addEventListener('click', function(){
@@ -52,7 +52,7 @@ document.getElementById('p4-btn').addEventListener('click', function(){
         setPlayerName('machado', 'p4-btn', playersField)
     }
         else{
-        alert('You Have Permission to Add Maximum 5 Player');
+        alert('You can not select more than 5 players');
     }
 })
 document.getElementById('p5-btn').addEventListener('click', function(){
@@ -63,7 +63,7 @@ document.getElementById('p5-btn').addEventListener('click', function(){
         setPlayerName('ramos', 'p5-btn', playersField)
     }
         else{
-        alert('You Have Permission to Add Maximum 5 Player');
+        alert('You can not select more than 5 players');
     }
 })
 document.getElementById('p6-btn').addEventListener('click', function(){
@@ -85,7 +85,7 @@ document.getElementById('p7-btn').addEventListener('click', function(){
         setPlayerName('hakimi', 'p7-btn', playersField)
     }
         else{
-        alert('You Have Permission to Add Maximum 5 Player');
+        alert('You can not select more than 5 players');
     }
 })
 document.getElementById('p8-btn').addEventListener('click', function(){
@@ -96,7 +96,7 @@ document.getElementById('p8-btn').addEventListener('click', function(){
         setPlayerName('marquinhos', 'p8-btn', playersField)
     }
         else{
-        alert('You Have Permission to Add Maximum 5 Player');
+        alert('You can not select more than 5 players');
     }
 })
 document.getElementById('p9-btn').addEventListener('click', function(){
@@ -107,6 +107,6 @@ document.getElementById('p9-btn').addEventListener('click', function(){
         setPlayerName('icardi', 'p9-btn', playersField)
     }
         else{
-        alert('You Have Permission to Add Maximum 5 Player');
+        alert('You can not select more than 5 players');
     }
 })
