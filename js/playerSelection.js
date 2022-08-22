@@ -1,4 +1,3 @@
-
 function setPlayerName(players, button, playersField){
     const setPlayersField = document.getElementById(players)
     const setPlayersNameField = setPlayersField.innerText;
